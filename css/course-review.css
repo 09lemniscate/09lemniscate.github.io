@@ -368,3 +368,47 @@
 .learn-press-courses .course-review .review-stars-rated .review-stars {
   font-size: 14px;
 }
+
+.contact-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fafafa;
+  gap: 7rem;
+  margin: 60px 0;
+}
+.contact-us > .one span {
+  font-size: 28px;
+  line-height: 1.2177em;
+  font-weight: 700;
+}
+.contact-us > .one {
+  width: 250px;
+}
+.contact-us > .two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+.two .fa-5 {
+  font-size: 8em;
+  color: #dd3935;
+}
+
+.sc_icons_item_description {
+  font-size: 0.882em;
+  line-height: 1.3em;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.sc_icons_item_title + .sc_icons_item_description {
+  margin-top: 1.4em;
+}
+.sc_icons_item_title {
+  font-size: 28px;
+}
+.sc_icons_item_title span,
+.sc_icons_item_description span {
+  display: block;
+}
