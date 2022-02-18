@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="">
+    <title>Site</title>
+    <meta name='robots' content='max-image-preview:large' />
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='course-review-css' href='./css/course-review.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='./css/wp-block-library.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='./css/font-awesome.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='./css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='./css/post.css' type='text/css' media='all' />
+    <style id='wp-block-library-theme-inline-css' type='text/css'>
+        #start-resizable-editor-section {
+            display: none
+        }
+
+        .wp-block-audio figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-audio figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-code {
+            font-family: Menlo, Consolas, monaco, monospace;
+            color: #1e1e1e;
+            padding: .8em 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px
+        }
+
+        .wp-block-embed figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-embed figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .blocks-gallery-caption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .blocks-gallery-caption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-image figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-image figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-pullquote {
+            border-top: 4px solid;
+            border-bottom: 4px solid;
+            margin-bottom: 1.75em;
+            color: currentColor
+        }
+
+        .wp-block-pullquote__citation,
+        .wp-block-pullquote cite,
+        .wp-block-pullquote footer {
+            color: currentColor;
+            text-transform: uppercase;
+            font-size: .8125em;
+            font-style: normal
+        }
+
+        .wp-block-quote {
+            border-left: .25em solid;
+            margin: 0 0 1.75em;
+            padding-left: 1em
+        }
+
+        .wp-block-quote cite,
+        .wp-block-quote footer {
+            color: currentColor;
+            font-size: .8125em;
+            position: relative;
+            font-style: normal
+        }
+
+        .wp-block-quote.has-text-align-right {
+            border-left: none;
+            border-right: .25em solid;
+            padding-left: 0;
+            padding-right: 1em
+        }
+
+        .wp-block-quote.has-text-align-center {
+            border: none;
+            padding-left: 0
+        }
+
+        .wp-block-quote.is-large,
+        .wp-block-quote.is-style-large {
+            border: none
+        }
+
+        .wp-block-search .wp-block-search__label {
+            font-weight: 700
+        }
+
+        .wp-block-group.has-background {
+            padding: 1.25em 2.375em;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        .wp-block-separator {
+            border: none;
+            border-bottom: 2px solid;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: .4
+        }
+
+        .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+            width: 100px
+        }
+
+        .wp-block-separator.has-background:not(.is-style-dots) {
+            border-bottom: none;
+            height: 1px
+        }
+
+        .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+            height: 2px
+        }
+
+        .wp-block-table thead {
+            border-bottom: 3px solid
+        }
+
+        .wp-block-table tfoot {
+            border-top: 3px solid
+        }
+
+        .wp-block-table td,
+        .wp-block-table th {
+            padding: .5em;
+            border: 1px solid;
+            word-break: normal
+        }
+
+        .wp-block-table figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-table figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-video figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-video figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+
+        .wp-block-template-part.has-background {
+            padding: 1.25em 2.375em;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        #end-resizable-editor-section {
+            display: none
+        }
+    </style>
+    <link rel='stylesheet' id='bootstrap-css' href='css/bootstrap.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='owlcarousel-css' href='css/owl.carousel.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='css/frontend.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.3' type='text/css' media='all' />
+    <script type='text/javascript' src='js/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+    <!-- <script type='text/javascript' src='//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js?ver=1.0' async='async' id='widget-bootstrap-js'></script> -->
+    <style id="learn-press-custom-css">
+        :root {
+            --lp-primary-color: #ffb606;
+            --lp-secondary-color: #442e66;
+        }
+    </style>
+    <meta name="tec-api-version" content="v1">
+    </noscript>
+    <style type="text/css">
+        .site-title,
+        .site-description {
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
+            display: none;
+        }
+    </style>
+
+    <style>
+        body {
+            font-family: Roboto;
+            color: #666;
+            text-transform: none;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 0px;
+        }
+
+        .edumodo-header .navigation-main .menu-item a.parent-link {
+            font-family: Poppins;
+            text-transform: none;
+            font-size: 16px;
+            line-height: 74px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 0px;
+        }
+
+        .edumodo-header .navigation-main .menu-item a.child,
+        .edumodo-header .navigation-main .menu-item a.child-end {
+            font-family: Poppins;
+            text-transform: none;
+            font-size: 15px;
+            line-height: 1;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 0px;
+        }
+    </style>
+
+    <style type="text/css" id="wp-custom-css">
+        .learn-press-breadcrumb {
+            display: none;
+        }
+
+        .learn-press-pagination {
+            margin-bottom: 100px;
+        }
+
+        .learn-press-pagination .page-numbers {
+            box-shadow: none !important;
+        }
+    </style>
+    <style id="kirki-inline-styles"></style>
+</head>
+
+<body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-13731 wp-custom-logo wp-embed-responsive theme-edumodo woocommerce-no-js tribe-no-js elementor-default elementor-template-full-width elementor-kit-12113 elementor-page elementor-page-13731">
+    <div id="tx-site-container" class="tx-site-container ">
+        <div class="tx-site-pusher">
+            <div class="tx-site-content">
+                <div class="tx-site-content-inner">
+                    <div id="page" class="site">
+                        <!-- <div id="edumodo-mainnav" class="navbar-v1 edumodo-mainnav">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="nav-logo-align">
+                                            <div class="col-xs-8 col-sm-9 col-md-3 logo">
+                                                <div class="navbar-header">
+                                                    <div class="logo-wrapper">
+                                                    </div>
+                                                    <div>
+                                                        About
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        <header class="edumodo-header ">
+                            <div id="edumodo-mainnav" class="navbar-v1 edumodo-mainnav">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="nav-logo-align">
+                                            <div class="col-xs-8 col-sm-9 col-md-3 logo">
+                                                <div class="navbar-header">
+                                                    <div class="logo-wrapper">
+                                                        <a class="custom-logo-link" rel="home" aria-current="page"><img width="195" height="54" src="assets/cropped-logo-3.png" class="custom-logo" alt="University-V1" sizes="(max-width: 195px) 100vw, 195px" /></a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="menu-wrapper col-xs-4 col-sm-3 col-md-9 pull-right text-right hidden-xs hidden-sm">
+                                                <div class="menu-primary-container">
+                                                    <ul id="menu-primary" class="navigation-main hidden-sm hidden-xs">
+                                                        <li id="menu-item-10843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10843       fadeInRight"><a title="Blog" class="parent-link">About-Us</a></li>
+                                                        <!-- <li id="menu-item-10836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10836       fadeInRight"><a title="Contact Us" href="https://demo.themexpert.com/wordpress/edumodo/university-v1/contact-us/" class="parent-link">Contact Us</a></li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 col-sm-3 pull-right text-right visible-xs visible-sm hidden-md hidden-lg">
+                                                <div id="mobile-menu-wrapper" class="mmenu-wrapper">
+                                                    <div class="mmenu-icon">
+                                                        <a href="#mmenu" class="micon"><i class="glyph-icon flaticon-bars"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                        <div id="content" class="site-content fixed-header-margin">
+                            <div id="primary" class="content-area" class="elementor elementor-13731">
+                                <main id="main" class="site-main">
+                                    <div class="page-details" style="background-image: url(https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2021/07/header_banner.jpg); ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="page-wrapper">
+                                                    <h2 class="page-title edumodo-single-title">
+                                                        About Us </h2>
+                                                    <div class="breadcrumbs"><a href="https://demo.themexpert.com/wordpress/edumodo">Home</a> - About Us</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <article id="post-3762" class="learnpress-archive-column-4 post-3762 page type-page status-publish hentry">
+                                        <div class="entry-content">
+                                            <div data-elementor-type="wp-post" data-elementor-id="3762" class="elementor elementor-3762" data-elementor-settings="[]">
+                                                <div class="elementor-inner">
+                                                    <div class="elementor-section-wrap">
+                                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-21da5ad elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21da5ad" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}" style="width: 1792px; left: 0px;">
+                                                            <div class="elementor-container elementor-column-gap-default">
+                                                                <div class="elementor-row">
+                                                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e7739f7 animated-fast animated fadeInUp" data-id="e7739f7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                                            <div class="elementor-widget-wrap">
+                                                                                <div class="elementor-element elementor-element-1358f57 elementor-widget elementor-widget-heading" data-id="1358f57" data-element_type="widget" data-widget_type="heading.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <p class="elementor-heading-title elementor-size-default">About Us</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-d418f24 elementor-widget elementor-widget-heading" data-id="d418f24" data-element_type="widget" data-widget_type="heading.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <h2 class="elementor-heading-title elementor-size-default">Avis</h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-70b95f6 elementor-widget elementor-widget-text-editor" data-id="70b95f6" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                                            <p> India's first aviation training academy that provides scholarships to all aspiring students who want to pursue their career in the aviation & hospitality industry. This scheme opens up future career paths for students allowing them to study the course at reduced fees. This economic assistance would help students to fulfill their dreams into reality.</p>
+                                                                                            <p>the modern age aviation training academy where we not only provide aviation knowledge, but also work towards building confident personalities to meet today ‘s challenges of the aviation & hospitality industry. Our highly experienced professionals and subject matter experts not only train students on the subject but also share their experiences to combat any challenges and transform them into confident professionals.
+                                                                                            </p>
+                                                                                            <p><b>Our Mission :</b> To empower the youth of the nation and fulfill their dreams where finances should not hinder their passion</p>
+                                                                                            <p><b>Our Vision :</b> To provide quality and reverential students to the aviation and hospitality industry</p>
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-46ae55c elementor-widget elementor-widget-text-editor" data-id="46ae55c" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                                            <!-- <p><span style="color: #333333;">Call Us</span> +71 000 342 4455</p> -->
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c8b88a1" data-id="c8b88a1" data-element_type="column">
+                                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                                            <div class="elementor-widget-wrap">
+                                                                                <div class="elementor-element elementor-element-c2fd127 elementor-widget elementor-widget-image" data-id="c2fd127" data-element_type="widget" data-widget_type="image.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-image">
+                                                                                            <img width="640" height="621" src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1-1024x993.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1-1024x993.png 1024w, https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1-300x291.png 300w, https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1-768x745.png 768w, https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1-600x582.png 600w, https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2018/09/Untitled-1.png 1050w" sizes="(max-width: 640px) 100vw, 640px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-135e4d6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default">
+                                                            <div class="elementor-container elementor-column-gap-default">
+                                                                <div class="elementor-row">
+                                                                    <div class="elementor-container elementor-column-gap-default" style="margin: 30px 0;">
+                                                                        <div class="elementor-element elementor-element-38b061f6 elementor-widget elementor-widget-heading" data-id="38b061f6" data-element_type="widget" data-widget_type="heading.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <h2 class="elementor-heading-title elementor-size-default">
+                                                                                    <p>LET YOUR DREAMS TAKE A FLIGHT</p>
+                                                                                </h2>
+                                                                                <p>AVIS AVIATION ACADEMY believes in providing an “Incredible Transformation Training” with a learning environment to all students, who are challenged to develop their intellectual, practical and social skills in a holistic way, focusing on lifelong learning.</p>
+                                                                                <p>We excel by offering a concise yet proficient Air Hostess Training Course which not only prepares you theoretically but also focuses on enhancing your personality, providing an edge in the airline Air Hostess selection.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <div class="elementor-container elementor-column-gap-default" style="margin: 30px;">
+                                                            <div class="elementor-element elementor-element-38b061f6 elementor-widget elementor-widget-heading" data-id="38b061f6" data-element_type="widget" data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Our Teachers</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-135e4d6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="135e4d6" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style="width: 1792px; left: 0px;">
+                                                            <div class="elementor-container elementor-column-gap-default">
+                                                                <div class="elementor-row">
+                                                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-706e522" data-id="706e522" data-element_type="column">
+                                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                                            <div class="elementor-widget-wrap">
+                                                                                <div class="elementor-element elementor-element-f32b649 elementor-widget elementor-widget-edumodo-teacher-2" data-id="f32b649" data-element_type="widget" data-widget_type="edumodo-teacher-2.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="edumodo-teacher-2">
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-1.jpg" alt="Mickel Zaman">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/mickel-zaman/">
+                                                                                                                                <h4 class="teacher-title">Mickel Zaman</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">Law Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-9.jpg" alt="Paul Croves">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/paul-croves/">
+                                                                                                                                <h4 class="teacher-title">Paul Croves</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">English Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-5.jpg" alt="Ricardo Spencer">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/ricardo-spencer/">
+                                                                                                                                <h4 class="teacher-title">Ricardo Spencer</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">English Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-8.jpg" alt="Marko Dugonji">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/marko-dugonji/">
+                                                                                                                                <h4 class="teacher-title">Marko Dugonji</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">Physics Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-2.jpg" alt="Laurie Laforest">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/laurie-laforest/">
+                                                                                                                                <h4 class="teacher-title">Laurie Laforest</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">Economics Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-6.jpg" alt="Emma Stone">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/emma-stone/">
+                                                                                                                                <h4 class="teacher-title">Emma Stone</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">Maths Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-3.jpg" alt="Rhoda Byrd">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/rhoda-byrd/">
+                                                                                                                                <h4 class="teacher-title">Rhoda Byrd</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">Botany Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                                                                    <div class="teacher-2">
+                                                                                                        <div class="teacher-container">
+
+                                                                                                            <div class="teacher-each-wrap">
+                                                                                                                <div class="teacher-block">
+                                                                                                                    <div class="teacher-image">
+                                                                                                                        <img src="https://demo.themexpert.com/wordpress/edumodo/university-v1/wp-content/uploads/sites/9/2020/01/t-7.jpg" alt="Max Stoiber">
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-social">
+                                                                                                                        <a class="teacher-facebook" href="https://www.facebook.com/themexpert"><i class="glyph-icon flaticon-facebook-logo"></i></a>
+                                                                                                                        <a class="teacher-twitter" href="https://www.twitter.com/themexpert"><i class="glyph-icon flaticon-twitter"></i> </a>
+                                                                                                                        <a class="teacher-linkedin" href="https://www.linkedin.com/themexpert"><i class="glyph-icon flaticon-linkedin-logo"></i> </a>
+                                                                                                                    </div>
+                                                                                                                    <div class="teacher-info">
+                                                                                                                        <div class="name">
+                                                                                                                            <a href="https://demo.themexpert.com/wordpress/edumodo/university-v1/teacher/max-stoiber/">
+                                                                                                                                <h4 class="teacher-title">Max Stoiber</h4>
+                                                                                                                            </a>
+                                                                                                                            <span class="teacher-designation">History Teacher</span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </main>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div id="footer-layout-1">
+                            <section id="footer" class="footer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="footer-sidebar-1">
+                                            <div class="col-md-3 col-sm-6">
+                                                <div id="text-8" class="widget widget_text">
+                                                    <h3 class="widget-title">About Us</h3>
+                                                    <div class="textwidget"><strong>Edumodo</strong> is perfectly suitable for school, college and university website with online education system.</div>
+                                                </div>
+                                                <div id="text-9" class="widget widget_text">
+                                                    <div class="textwidget">
+                                                        <div class="edumodo-quickinfo">
+                                                            <div class="icon-2"><i class="fa fa-phone"></i>+1 23-4567-8920</div>
+                                                        </div>
+                                                        <div class="edumodo-quickinfo">
+                                                            <div class="icon-2"><i class="fa fa-envelope-o"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="footer-sidebar-2">
+                                            <div class="col-md-3 col-sm-6">
+                                                <div id="nav_menu-2" class="widget widget_nav_menu">
+                                                    <h3 class="widget-title">Quick Links</h3>
+                                                    <div class="menu-quick-links-container">
+                                                        <ul id="menu-quick-links" class="menu">
+                                                            <li id="menu-item-13634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13634"><a href="#">Education WordPress Theme</a></li>
+                                                            <li id="menu-item-13635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13635"><a href="#">Travel WordPress Theme</a></li>
+                                                            <li id="menu-item-13636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13636"><a href="#">Games WordPress Theme</a></li>
+                                                            <li id="menu-item-13637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13637"><a href="#">Magazine WordPress Theme</a></li>
+                                                            <li id="menu-item-13638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13638"><a href="#">Event WordPress Theme</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div id="copyright" class="copyright">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="edumodo-credit-wrapper">
+                                                <div class="copyright-info">
+                                                    Edumodo &copy; 2021 </div>
+                                                <div class="user-credit">
+                                                    <a href="https://themesgrove.com/">
+                                                        Themesgrove </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="social-icon text-right">
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-facebook-logo"></i>
+                                                </a>
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-twitter"></i>
+                                                </a>
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-instagram-1"></i>
+                                                </a>
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-linkedin-logo"></i>
+                                                </a>
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-youtube-logo"></i>
+                                                </a>
+                                                <a target="_blank" href="#">
+                                                    <i class="glyph-icon flaticon-skype-logo"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <link rel='stylesheet' id='widgetkit_pro_default-css' href='css/default.css?ver=1.9' type='text/css' media='all' />
+    <script type='text/javascript' src='js/bootstrap.min.js?ver=4.2' id='bootstrap-js'></script>
+    <script type='text/javascript' src='js/owl.carousel.min.js?ver=2.3.14' id='owl-carousel-js'></script>
+    <link rel='stylesheet' id='uikit-css' href='css/uikit.custom.min.css?ver=2.3.14' type='text/css' media='all' />
+
+
+
+</body>
+
+</html>
