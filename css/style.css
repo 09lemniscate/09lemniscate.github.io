@@ -27100,3 +27100,9 @@ body.buddyboss .moderators-title {
   content: "\f100";
 }
 
+.menu-item.active {
+  color:#337ab7;
+}
+.wk-slider-items:not(.wk-grid) {
+  justify-content: space-evenly;
+}
